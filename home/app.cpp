@@ -33,7 +33,7 @@ void App::didBecomeActive(Window * window) {
   Ion::Timing::msleep(400);
   background c;
   for(int i=0;i<len_tab;i++){
-    c.load_img_lite(liste[i],0,0,1);
+    c.load_img_lite(liste[i],0,0,s);
     Ion::Timing::msleep(sleep);
   }
   Ion::Timing::msleep(sleep);
