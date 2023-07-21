@@ -115,7 +115,7 @@ def conv(chemin):
 def export():
     dir= filedialog.askdirectory()
     with open(dir+'/bg2.cpp','w') as b :
-        b.write("int len_tab="+str(len(liste_converti))+";\nchar* liste["+str(len(liste_converti))+"]={")
+        b.write("int sleep=40 ;\nint len_tab="+str(len(liste_converti))+";\nchar* liste["+str(len(liste_converti))+"]={")
     for n,i in enumerate(liste_converti):
         i.save(dir+"/"+str(n)+"_conv.png")
         with open(dir+'/bg2.cpp','a') as b:
