@@ -71,7 +71,7 @@ void background::load_img_lite(char* img, int x, int y, int s) {
     int x2 = 0;// n+1 +6*nb color
     n = 1+6*nb_col;
     int chn = 0;
-    int L=320;
+    int L=320/s;
     while (n < le) {
         if (img[n] == '*') {
             chn = b62(img[n+1]) * 62 * 62 + b62(img[n+2]) * 62 + b62(img[n+3]);
