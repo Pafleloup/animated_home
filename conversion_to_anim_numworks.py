@@ -133,7 +133,12 @@ def conv_palette():
     groot=Frame(root)
     groot.pack()
     for n,i in enumerate(liste_image):
-        liste_converti.append(i.convert("P",0, palette=Image.ADAPTIVE,colors=16))
+
+        img=i.convert("P",0, palette=Image.ADAPTIVE,colors=16)
+        if img.size[0]<320:
+            img=img.resize((320,round((320*img.size[1])/img.size[0])))
+        liste_converti.append(img)
+
         imag.append(iim.PhotoImage(liste_converti[-1].resize((160, 120))))
         Label(groot,image=imag[-1]).grid(column=n//3,row=n%3)
 
