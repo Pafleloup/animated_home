@@ -23,6 +23,11 @@ def upload_image():
 def conv(chemin):
     i=Image.open(chemin)
     l=[]
+    (largeur, hauteur)= i.size
+    if largeur>320:
+        largeur=320
+    if hauteur>240:
+        hauteur=240
     if i.mode == "P":
         i=i.convert('RGB')
         print("converti")
@@ -68,7 +73,6 @@ def conv(chemin):
             A="0"+A
         return("*"+A+to_b62(l.index(t_1)))
 
-    largeur,hauteur=320,240
     A=""
     t_1="sus"
     chn=0
