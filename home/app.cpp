@@ -32,7 +32,7 @@ void App::didBecomeActive(Window * window) {
   m_window = window;
   Ion::Timing::msleep(400);
   background c;
-  for(int i=0;i<13;i++){
+  for(int i=0;i<sizeof(liste);i++){
     c.load_img_lite(liste[i],0,0,1);
     Ion::Timing::msleep(40);
   }
