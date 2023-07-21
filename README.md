@@ -25,4 +25,10 @@ bg2.cpp contient une liste de chaque image sous format texte
 si vous voulez le fond d ecran avec vous prenez la derniere image affichée x_conv.png et vous la redimmensionner en comptant les pixels de la barre en haut (28 je crois ) et vous l'installer
 
 
+Aide conversion gif -> liste image :
+requis Scratch:
+
+ouvrez scratch aller dans le costume du chat et cliquez sur importer un fichier
+![alt text](https://github.com/Pafleloup/animated_home/assets/140179744/1d3b7eb7-570e-4e1f-af47-c00d64b6f32f)
+ca peut lagger c normal
 
