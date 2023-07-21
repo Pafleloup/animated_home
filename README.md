@@ -22,5 +22,7 @@ Upsilon/apps/home par celui fourni et remplacer dedans bg2.cpp par le votre.
 
 bg2.cpp contient une liste de chaque image sous format texte
 
+si vous voulez le fond d ecran avec vous prenez la derniere image affichée x_conv.png et vous la redimmensionner en comptant les pixels de la barre en haut (28 je crois ) et vous l'installer
+
 
 
