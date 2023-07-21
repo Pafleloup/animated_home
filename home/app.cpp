@@ -34,9 +34,9 @@ void App::didBecomeActive(Window * window) {
   background c;
   for(int i=0;i<len_tab;i++){
     c.load_img_lite(liste[i],0,0,1);
-    Ion::Timing::msleep(40);
+    Ion::Timing::msleep(sleep);
   }
-  Ion::Timing::msleep(40);
+  Ion::Timing::msleep(sleep);
 }
 
 void App::redraw() {
