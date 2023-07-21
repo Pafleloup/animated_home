@@ -28,7 +28,8 @@ si vous voulez le fond d ecran avec vous prenez la derniere image affichée x_co
 Aide conversion gif -> liste image :
 requis Scratch:
 
-ouvrez scratch aller dans le costume du chat et cliquez sur importer un fichier
+ouvrez scratch aller dans le costume du chat et cliquez sur importer un fichier et selectionner le gif ca peut lagger c normal
 ![alt text](https://github.com/Pafleloup/animated_home/assets/140179744/1d3b7eb7-570e-4e1f-af47-c00d64b6f32f)
-ca peut lagger c normal
+
+
 
