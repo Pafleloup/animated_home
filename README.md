@@ -7,7 +7,7 @@ requis avoir python , les modules tkinter et PIL
 
 creer un dossier avec les images (uniquement) numérotés de 1.png a x.png  dans leur ordre d'apparition a l'ecran.
 ![alt text](https://github.com/Pafleloup/animated_home/assets/140179744/5b44820d-8cff-413f-b869-cdb6a9ad184e)
-la taille importe peu mais seul les 320*240 premiers pixels seront convertis ( au moins 320*240 ou changer manuellement dans bg.cpp)
+la taille importe peu mais seul les 320*240 premiers pixels seront convertis ( au moins 320 de long ou changer manuellement dans bg.cpp l.74)
 
 Lancer le script conversion_to_anim_numworks.py , sera demandé de choisir le dossier avec les images, puis appuyé sur convertir, les images seront convertis en palette de 16 couleurs puis s'afficheront sur l'écran
 ( seul un appercu redimensionné est affiché donc pas le resultat final )
