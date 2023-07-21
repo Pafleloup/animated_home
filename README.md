@@ -14,5 +14,13 @@ Lancer le script conversion_to_anim_numworks.py , sera demandé de choisir le do
 
 ![alt text](https://github.com/Pafleloup/animated_home/assets/140179744/b382d4dd-c24f-4ea5-bb27-cc945141e887)
 
-appuyer sur export et choisissez le dossier dans lequel l'exporter, y seront enregistré toutes les images sous le nom x_conv.png, et le dossier bg2.cpp
+appuyer sur export et choisissez le dossier dans lequel l'exporter, y seront enregistré toutes les images sous le nom x_conv.png, et le fichier bg2.cpp
+
+2 remplacer le dossier home dans le sdk :
+
+Upsilon/apps/home par celui fourni et remplacer dedans bg2.cpp par le votre.
+
+bg2.cpp contient une liste de chaque image sous format texte
+
+
 
