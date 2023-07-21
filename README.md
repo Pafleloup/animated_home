@@ -30,6 +30,8 @@ requis Scratch:
 
 ouvrez scratch aller dans le costume du chat et cliquez sur importer un fichier et selectionner le gif ca peut lagger c normal
 ![alt text](https://github.com/Pafleloup/animated_home/assets/140179744/1d3b7eb7-570e-4e1f-af47-c00d64b6f32f)
+![alt text](https://github.com/Pafleloup/animated_home/assets/140179744/b94819b2-faf2-4c7e-b5c8-5bf210340634)
 
+ce sera ensuite convertis en une liste de sprites qu'il seras possible d'exporter
 
 
