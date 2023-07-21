@@ -115,7 +115,7 @@ def conv(chemin):
 def export():
     dir= filedialog.askdirectory()
     with open(dir+'/bg2.cpp','w') as b :
-        b.write("int sleep=40 ;\nint len_tab="+str(len(liste_converti))+";\nchar* liste["+str(len(liste_converti))+"]={")
+        b.write("int s=1;\nint sleep=40 ;\nint len_tab="+str(len(liste_converti))+";\nchar* liste["+str(len(liste_converti))+"]={")
     for n,i in enumerate(liste_converti):
         i.save(dir+"/"+str(n)+"_conv.png")
         with open(dir+'/bg2.cpp','a') as b:
@@ -140,7 +140,7 @@ def conv_palette():
         liste_converti.append(img)
 
         imag.append(iim.PhotoImage(liste_converti[-1].resize((160, 120))))
-        Label(groot,image=imag[-1]).grid(column=n//3,row=n%3)
+        Label(groot,image=imag[-1]).grid(column=n%5,row=n//5)
 
 B=Button(root,text="upload image",command=upload_image)
 B.pack()
