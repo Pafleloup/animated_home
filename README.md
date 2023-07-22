@@ -24,7 +24,9 @@ bg2.cpp contient une liste de chaque image sous format texte
 
 si vous voulez le fond d ecran avec vous prenez la derniere image affichée x_conv.png et vous la redimmensionner en comptant les pixels de la barre en haut (28 je crois ) et vous l'installer
 
+Aide conversion video to image :
 
+Utiliser le script en python presque eponyme, modifié la variable l.9 pour definir le nombbre de frames passées (divise par x+1 le nb de fps)
 Aide conversion gif -> liste image :
 requis Scratch:
 
