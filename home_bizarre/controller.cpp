@@ -90,7 +90,7 @@ static constexpr Ion::Events::Event home_fast_navigation_events[] = {
     Ion::Events::Seven, Ion::Events::Eight, Ion::Events::Nine,
     Ion::Events::Four, Ion::Events::Five, Ion::Events::Six,
     Ion::Events::One, Ion::Events::Two, Ion::Events::Three,
-    Ion::Events::Zero, Ion::Events::Dot, Ion::Events::EE, Ion::Events::Log, Ion::Events::USBPlug,Ion::Events::TimerFire,true
+    Ion::Events::Zero, Ion::Events::Dot, Ion::Events::EE, Ion::Events::USBPlug,Ion::Events::TimerFire,true
 };
 
 
@@ -102,9 +102,6 @@ bool Controller::rel() {
 bool Controller::handleEvent(Ion::Events::Event event) {
   m_view.selectableTableView()->selectedCell()->reloadCell();
   Ion::LED::setColor(KDColor::RGB24(0xff00ff));
-  if (event == Ion::Events::Log) {
-    return m_view.selectableTableView()->selectCellAtLocation(0, selectionDataSource()->selectedRow());
-  }
   if (event == Ion::Events::OK || event == Ion::Events::EXE) {
     AppsContainer * container = AppsContainer::sharedAppsContainer();
 
