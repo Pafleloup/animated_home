@@ -101,7 +101,7 @@ bool Controller::rel() {
 
 bool Controller::handleEvent(Ion::Events::Event event) {
   m_view.selectableTableView()->selectedCell()->reloadCell();
-  Ion::LED::setColor(KDColor::RGB24(0xff00ff));
+  //Ion::LED::setColor(KDColor::RGB24(0xff00ff));
   if (event == Ion::Events::OK || event == Ion::Events::EXE) {
     AppsContainer * container = AppsContainer::sharedAppsContainer();
 
