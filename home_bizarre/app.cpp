@@ -45,7 +45,10 @@ void App::didBecomeActive(Window * window) {
 
 void App::leave(){
   background c;
-  
+  for(int i=0;i<13;i++){
+    c.load_img_lite(liste[13-i],0,0,1);
+    Ion::Timing::msleep(40);
+  }
   Ion::Timing::msleep(40);
   Ion::Timing::msleep(40);
 }
